@@ -30,6 +30,10 @@ border-left: 2px solid;
 border-right: 2px solid;
 }
 
+header{
+overflow: auto;
+}
+
 header section{
 border: 0px;
 }
@@ -46,9 +50,11 @@ text-align: right;
 
 #logo{
 float: left;
+padding: 5px;
 }
 
 .buttonSection{
+
 text-align: center;
 
 }
