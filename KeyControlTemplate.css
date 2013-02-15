@@ -25,9 +25,31 @@ body{
 
 
 section{
-border: 2px solid;
+border: 1px solid;
+border-left: 2px solid;
+border-right: 2px solid;
 }
 
 header section{
 border: 0px;
 }
+
+#sect1{
+border-top: 2px solid;
+}
+
+#sect6 {
+border: 0px;
+border-top: 1px solid;
+text-align: right;
+}
+
+#logo{
+float: left;
+}
+
+.buttonSection{
+text-align: center;
+
+}
+
