@@ -27,7 +27,7 @@ font-size: 16px;
 body{
 position: relative;
 width: 1024px;
-height: 1196px;
+height: 1204px;
 margin: 0 auto;
 font-family: Georgia,serif;
 font-size: 62.5%;
@@ -61,26 +61,91 @@ font-size: 2.5em;
 
 #sect1{
 border-top: 2px solid;
-height: 
+height: 225px;
+position: relative;
 }
 
 #sect2{
-
+height: 275px;
+position: relative;
 }
 
 #sect3{
-
+height: 350px;
+position: relative;
 }
 
 #sect4{
-
+height: 100px;
+position: relative;
 }
 
 #sect5{
-
+height: 250px;
+position: relative;
 }
 
+.paragraph{
+padding: 15px;
+}
 
+.bold{
+font-weight: bold;
+}
+
+.foot{
+position: absolute;
+bottom: 0;
+width: 512px;
+text-align: center;
+left: 50%;
+margin-left: -256px;
+}
+
+.container1{
+height: 185px;
+overflow: hidden;
+border: 1px dashed;
+font-size: .5em;
+padding: 10px;
+}
+
+.container2{
+height: 205px;
+overflow: hidden;
+border: 1px dashed;
+text-align: center;
+font-size: .5em;
+padding: 10px;
+}
+
+.container3{
+height: 225px;
+overflow: hidden;
+border: 1px dashed;
+font-size: .5em;
+padding: 10px;
+}
+
+.container4{
+height: 60px;
+overflow: hidden;
+border: 1px dashed;
+font-size: .5em;
+padding: 10px;
+}
+
+.container5{
+height: 105px;
+overflow: hidden;
+border: 1px dashed;
+font-size: .5em;
+padding: 10px;
+}
+
+.internalSect{
+border: 0px;
+}
 
 #rev {
 border: 0;
@@ -95,8 +160,8 @@ padding-left: 20px;
 }
 
 .buttonSection{
-
-text-align: center;
-
+position: relative;
+text-align: right;
+top: 30px;
 }
 
