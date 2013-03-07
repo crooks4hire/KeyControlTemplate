@@ -1,77 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="KeyRequest_Contractor.css">
-<link rel="stylesheet" href="KeyControlPrintTemplate.css" media="print">
+    <link rel="stylesheet" href="KeyRequest_Contractor.css">
+    <link rel="stylesheet" href="KeyControlPrintTemplate.css" media="print">
+    
+    <head>
+        <title>KeyControlTemplate</title>
+    </head>
+    
+    <body>
+        <header>
+            <img src="http://publichealth.lsuhsc.edu/faculty_pages/qyu/images/LSUHSClogo.gif" id="logo" height="100">
+            <section class="boldHead">Louisiana State University Health Sciences Center - Shreveport</section>
+            <section class="Head">Physical Plant and Facility Planning</section>
+            <section class="boldHead">Request for Building Keys - for CONTRACTOR/VENDOR</section>
+            <section style="color:red; font-style:italic; font-size: 12px">(Key Request Forms must be computer generated - not handwritten)</section>
+        </header>
+        
+		<section id="sect1" ;>
+            <div class='container1' ;>
+                <div class='date' ;>Date: ______________</div>
+				
+                <div>
+					<div class=' name1' ;>FirstName: _____________________________,</div>
+					<div class=' name2' ;>LastName: _____________________________,</div>
+					<div class=' name3' ;>MI: ___________________</div>
+					<div style="clear:both;"></div>
+				</div>
+				
+				<div>
+					<div class=' projectName' ;>Project Name/Location: _________________________________________________</div>
+					<div class=' workPhone';>Work Phone: ___________________</div>
+					<div style="clear:both;"></div>
+				</div>
+				
+				<div>
+					<div class=' stateDL' ;>State/D.L.#: ________________________________________</div>
+					<div class=' dateComplete';>Estimated Date-of-Completion: ___________________</div>
+					<div style="clear:both;"></div>
+				</div>
+				
+				<div>
+					<div class=' company';>Company: __________________________________________</div>
+					<div class=' companyPosition' ;>Position Title: _______________________________</div>
+				
+            </div>
+        
+			<div class="foot" ;>Contractors/Vendors MUST BE PRESENT IN PERSON to obtain keys.</div>
+        </section>
+        
+		<section id="sect2" ;>
+            <div class='paragraph bold' ;>REQUEST FOR KEYS FOR ROOMS IN THE FOLLOWING BUILDINGS:</div>
+            <div class='container2'
+            ;>Lorem Ipsum...</div>
+        </section>
+        
+		<section id="sect3" ;>
+            <div class="paragraph" ;>Approving department head approves the requested access. Also, approving
+                department head will be responsible for reimbursement to Physical Plant
+                and Facility Planning for the keys issued to Student Workers, Volunteers,
+                Contractors/Vendors and Observer/Participants if the keys are not returned
+                to Physical Plant and Facility Planning upon the person's departure.</div>
+            <div
+            class='container3' ;>
+                <section class='internalSect placeholder' ;>Contractor's Supervisor sig</section>
+                <section class='internalSect placeholder'
+                ;>Project Manager sig</section>
+                <section class='internalSect placeholder'
+                ;>Hospital Admin</section>
+                </div>
+                <div class='foot' ;>(Contractor/Vendor is responsible for obtaining these signatures)</div>
+        </section>
+        <section id="sect4" ;>
+            <div class="container4" ;>
+                <section class='internalSect placeholder' ;>Physical Plant and Facility Planning Administration</section>
+            </div>
+            <div class='foot' ;>(For Physical Plant and Facility Planning use only)</div>
+        </section>
+        <section id="sect5" ;>
+            <div class="paragraph" ;>I acknowledge receipt of the above keys and agree to Physical Plant and
+                Facility Planning key control policy and agree to pay for each key lost,
+                damaged or not returned to Physical Plant and Facility Planning. The fees
+                are $250, for each key. I understand these keys are LSUHSC-S property and
+                must be returned to Physical Plant and Facility Planning upon ending my
+                association with LSUHSC-S. Accounting may withhold the cost of the keys
+                if the keys are not returned. Accounting may also withhold any payments
+                due for the project until the keys are returned. Any misuse or unauthorized
+                use of keys may subject the key holder to disciplinary action.</div>
+            <div
+            class='container5' ;>
+                <section class='internalSect placeholder' ;>Contractor/Vendor Signature</section>
+                <section class='internalSect placeholder'
+                ;>Issue Clerk Signature</section>
+                </div>
+        </section>
+        <section id="rev" ;>
+            <div>LSUHSC-S 1096</div>
+            <div>Rev. 2/18/13</div>
+            <section class="buttonSection">
+                <input type="button" onClick="window.print()" value="Print" />
+            </section>
+        </section>
+    </body>
 
-<head>
-	<title>KeyControlTemplate</title>
-</head>
-
-<body>
-	<header>
-		
-		<img src="LSUHSClogo.gif" id="logo" height="100">
-		<section class="boldHead">Louisiana State University Health Sciences Center - Shreveport</section>
-		<section class="Head">Physical Plant and Facility Planning</section>
-		<section class="boldHead">Request for Building Keys - for CONTRACTOR/VENDOR</section>
-		<section style="color:red; font-style:italic; font-size: 12px">(Key Request Forms must be computer generated - not handwritten)</section>
-	</header>
-
-	<section id="sect1";>
-		<div class='container1';>	
-			<section class='internalSect date';>Date:</section>
-			<section class='internalSect placeholder';>FirstName</section>
-			<section class='internalSect placeholder';>Project Name/Location</section>
-			<section class='internalSect placeholder';>State/D.L.#</section>
-			<section class='internalSect placeholder';>Company/Position</section>
-		</div>
-		<div class="foot";>Contractors/Vendors MUST BE PRESENT IN PERSON to obtain keys.</div>
-	</section>
-
-	<section id="sect2";>
-		<div class='paragraph bold';>REQUEST FOR KEYS FOR ROOMS IN THE FOLLOWING BUILDINGS:</div>
-		<div class='container2';>Lorem Ipsum...</div>
-	</section>
-
-	<section id="sect3";>
-		<div class="paragraph";>Approving department head approves the requested access. Also, approving department head will be responsible for reimbursement to Physical Plant and Facility
-		Planning for the keys issued to Student Workers, Volunteers, Contractors/Vendors and Observer/Participants if the keys are not returned to Physical Plant and Facility Planning upon
-		the person's departure.</div>
-		<div class='container3';>
-			<section class='internalSect placeholder';>Contractor's Supervisor sig</section>
-			<section class='internalSect placeholder';>Project Manager sig</section>
-			<section class='internalSect placeholder';>Hospital Admin</section>
-		</div>
-		<div class='foot';>(Contractor/Vendor is responsible for obtaining these signatures)</div>
-	</section>
-
-	<section id="sect4";>
-		<div class="container4";>
-			<section class='internalSect placeholder';>Physical Plant and Facility Planning Administration</section>
-		</div>
-		<div class='foot';>(For Physical Plant and Facility Planning use only)</div>
-	</section>
-
-	<section id="sect5";>
-		<div class="paragraph";>I acknowledge receipt of the above keys and agree to Physical Plant and Facility Planning key control policy and agree to pay for each key lost, damaged or not returned to Physical Plant
-		and Facility Planning. The fees are $250, for each key. I understand these keys are LSUHSC-S property and must be returned to Physical Plant and Facility Planning upon ending my association
-		with LSUHSC-S. Accounting may withhold the cost of the keys if the keys are not returned. Accounting may also withhold any payments due for the project until the keys are returned.
-		Any misuse or unauthorized use of keys may subject the key holder to disciplinary action.</div>
-		<div class='container5';>
-			<section class='internalSect placeholder';>Contractor/Vendor Signature</section>
-			<section class='internalSect placeholder';>Issue Clerk Signature</section>
-		</div>
-	</section>
-	
-	<section id="rev";>
-		<div>LSUHSC-S 1096</div>
-		<div>Rev. 2/18/13</div>
-		<section class="buttonSection">
-			<input type="button"
-			onClick="window.print()"
-			value="Print"/>
-		</section>
-	</section>
-	
-</body>
 </html>
