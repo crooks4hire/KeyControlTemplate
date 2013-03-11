@@ -96,7 +96,8 @@ width: 512px;
 text-align: center;
 left: 50%;
 margin-left: -256px;
-font-size: .75em
+font-size: .75em;
+color: red;
 }
 
 .container1{
@@ -120,7 +121,6 @@ font-size: 1em;
 .container3{
 height: 190px;
 overflow: hidden;
-border: 1px dashed;
 font-size: 1em;
 padding: 10px;
 }
@@ -128,7 +128,6 @@ padding: 10px;
 .container4{
 height: 60px;
 overflow: hidden;
-border: 1px dashed;
 font-size: 1em;
 padding: 10px;
 }
@@ -136,7 +135,6 @@ padding: 10px;
 .container5{
 height: 110px;
 overflow: hidden;
-border: 1px dashed;
 font-size: 1em;
 padding: 10px;
 }
@@ -146,7 +144,13 @@ border: 1px solid;
 padding: 10px 0px;
 }
 
-	.date{
+.sigs{
+font-size: 75%;
+font-family: serif;
+}
+
+/* SETTINGS FOR SECTION 1 CONTAINERS */
+	.date1{
 	height: 40px;
 	width: 185px;
 	position: relative;
@@ -222,6 +226,64 @@ padding: 10px 0px;
 	position: relative;
 	left: 65px;
 	}
+/* END SECTION 1 SETTINGS */
+
+
+/* SETTINGS FOR SECTION 2 CONTAINERS */
+
+/* END SECTION 2 SETTINGS */
+
+
+/* SETTINGS FOR SECTION 3 CONTAINERS */
+	.supSig{
+	height: 40px;
+	width: 660px;
+	float: left;
+	position: relative;
+	border-top: 1px solid;
+	margin-top: 25px;
+	text-align: center;
+	}
+	
+	.date2{
+	height: 40px;
+	width: 330px;
+	position: relative;
+	float: right;
+	border-top: 1px solid;
+	margin-top: 25px;
+	text-align: center;
+	}
+/* END SECTION 3 SETTINGS */
+
+
+/* SETTINGS FOR SECTION 4 CONTAINERS */
+	.ppAdminsig{
+	height: 40px;
+	width: 660px;
+	float: left;
+	position: relative;
+	border-top: 1px solid;
+	margin-top: 40px;
+	text-align: center;
+	}
+	
+	.date3{
+	margin-top: 40px;
+	}
+	
+/* END SECTION 4 SETTINGS */
+
+
+/* SETTINGS FOR SECTION 5 CONTAINERS */
+
+/* END SECTION 5 SETTINGS */
+
+
+/* SETTINGS FOR SECTION 6 CONTAINERS */
+
+/* END SECTION 6 SETTINGS */
+
 
 #rev {
 border: 0;
