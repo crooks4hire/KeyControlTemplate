@@ -1,0 +1,320 @@
+/* RESET ******************************************************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 16px;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/* 136.5px/inch */
+
+body{
+position: relative;
+width: 1024px; 
+height: 1204px;
+margin: 0 auto;
+font-family: Georgia,serif;
+font-size: 62.5%;
+}
+
+
+section{
+border: 1px solid;
+border-left: 2px solid;
+border-right: 2px solid;
+}
+
+header{
+overflow: auto;
+}
+
+header section{
+border: 0;
+padding-left: 100px;
+}
+
+.Head{
+font-size: 1.5em;
+}
+
+.boldHead{
+font-weight: bold;
+font-size: 1.75em;
+}
+
+#first_column, #second_column{
+  width: 480px;
+  padding: 10px;
+  display: inline-block;
+}
+
+input{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  display: block;
+}
+
+#sect2{
+height: 260px;
+position: relative;
+}
+
+#sect3{
+height: 300px;
+position: relative;
+}
+
+#sect4{
+height: 100px;
+position: relative;
+}
+
+#sect5{
+height: 240px;
+position: relative;
+}
+
+.paragraph{
+padding: 10px;
+}
+
+.bold{
+font-weight: bold;
+}
+
+.form-footer{
+  width: 512px;
+  text-align: center;
+  color: red;
+  font-size: .75em;
+  margin-left: 256px; 
+}
+
+.foot{
+position: absolute;
+bottom: 0;
+width: 512px;
+text-align: center;
+left: 50%;
+margin-left: -256px;
+font-size: .75em;
+color: red;
+}
+
+.container1{
+height: 190px;
+overflow: hidden;
+font-size: 1em;
+padding: 10px;
+font-size: 16px;
+position: relative;
+}
+
+.container2{
+height: 200px;
+overflow: hidden;
+border: 1px dashed;
+text-align: center;
+padding: 10px;
+font-size: 1em;
+}
+
+.container3{
+height: 190px;
+overflow: hidden;
+font-size: 1em;
+padding: 10px;
+}
+
+.container4{
+height: 60px;
+overflow: hidden;
+font-size: 1em;
+padding: 10px;
+}
+
+.container5{
+height: 110px;
+overflow: hidden;
+font-size: 1em;
+padding: 10px;
+}
+
+.internalSect{
+border: 1px solid;
+padding: 10px 0px;
+}
+
+.sigs{
+font-size: 75%;
+font-family: serif;
+}
+
+/* SETTINGS FOR SECTION 1 CONTAINERS */
+	.date1{
+	height: 40px;
+	width: 185px;
+	position: relative;
+	left: 820px;
+	top: 10px;
+	}
+
+	.name1{
+	height: 40px;
+	width: 380px;
+	float: left;
+	position: relative;
+	left: 0;
+	}
+	
+	.name2{
+	height: 40px;
+	width: 380px;
+	float: left;
+	position: relative;
+	left: 10px;
+	}
+	
+	.name3{
+	height: 40px;
+	width: 235px;
+	float: left;
+	position: relative;
+	left: 20px;
+	}
+	
+	.projectName{
+	height: 40px;
+	width: 670px;
+	float: left;
+	position: relative;
+	}
+	
+	.workPhone{
+	height: 40px;
+	width: 300px;
+	float: left;
+	position: relative;
+	left: 45px;
+	}
+	
+	.stateDL{
+	height: 40px;
+	width: 500px;
+	float: left;
+	position: relative;
+	}
+	
+	.dateComplete{
+	height: 40px;
+	width: 475px;
+	float:left;
+	position: relative;
+	left: 85px;
+	}
+	
+	.company{
+	height: 40px;
+	width: 520px;
+	float: left;
+	position: relative;
+	}
+	
+	.companyPosition{
+	height: 40px;
+	width: 425px;
+	float: left;
+	position: relative;
+	left: 65px;
+	}
+/* END SECTION 1 SETTINGS */
+
+
+/* SETTINGS FOR SECTION 2 CONTAINERS */
+
+/* END SECTION 2 SETTINGS */
+
+
+/* SETTINGS FOR SECTION 3 CONTAINERS */
+	.supSig{
+	height: 40px;
+	width: 660px;
+	float: left;
+	position: relative;
+	border-top: 1px solid;
+	margin-top: 25px;
+	text-align: center;
+	}
+	
+	.date2{
+	height: 40px;
+	width: 330px;
+	position: relative;
+	float: right;
+	border-top: 1px solid;
+	margin-top: 25px;
+	text-align: center;
+	}
+/* END SECTION 3 SETTINGS */
+
+
+/* SETTINGS FOR SECTION 4 CONTAINERS */
+	.ppAdminsig{
+	height: 40px;
+	width: 660px;
+	float: left;
+	position: relative;
+	border-top: 1px solid;
+	margin-top: 40px;
+	text-align: center;
+	}
+	
+	.date3{
+	margin-top: 40px;
+	}
+	
+/* END SECTION 4 SETTINGS */
+
+
+/* SETTINGS FOR SECTION 5 CONTAINERS */
+
+/* END SECTION 5 SETTINGS */
+
+
+/* SETTINGS FOR SECTION 6 CONTAINERS */
+
+/* END SECTION 6 SETTINGS */
+
+
+#rev {
+border: 0;
+border-top: 1px solid;
+text-align: right;
+}
+
+#logo{
+float: left;
+padding: 2px;
+padding-left: 20px;
+}
+
+.buttonSection{
+border: 0px;
+position: relative;
+text-align: center;
+bottom: 25px;
+}
